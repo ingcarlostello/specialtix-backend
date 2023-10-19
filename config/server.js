@@ -8,5 +8,6 @@ module.exports = ({ env }) => ({
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
   // url: env('', 'http://localhost:1337'),
-  url: env('DATABASE_HOST'),
+  // url: env('DATABASE_HOST'),
+  url: env(''),
 });
